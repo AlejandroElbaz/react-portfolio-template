@@ -8,6 +8,7 @@ import {FeedbacksProvider} from "/src/providers/FeedbacksProvider"
 import {WindowProvider} from "/src/providers/WindowProvider"
 import App from "/src/components/App.jsx"
 import Preloader from "/src/components/Preloader.jsx"
+import './otel.js';
 
 const AppProviders = ({ children }) => (
     <DataProvider>
